@@ -1,0 +1,182 @@
+i
+
+javascriptS2259FTypeError can be thrown as "scrollTo" might be null or undefined here. 2
+°° p
+
+javascriptS2589MRefactor this code so that this expression does not always evaluate to false. 2
+ºº *…
+
+javascriptS2814ORename "mCSB_dragger" as this name is already used in declaration at line 2068. 2
+¢¢	 :
+»
+””	 
+
+javascriptS2814KRename "scrollTo" as this name is already used in declaration at line 2075. 2
+©© :
+»
+›› }
+
+javascriptS2814GRename "tsbo" as this name is already used in declaration at line 2077. 2
+«« 
+:
+»
+ 
+ƒ
+
+javascriptS2814MRename "contentPos" as this name is already used in declaration at line 1484. 2
+ÔÔ :
+»
+ÌÌ |
+
+javascriptS2814FRename "dir" as this name is already used in declaration at line 1481. 2
+ÑÑ	 :
+»
+ÉÉ	 {
+
+javascriptS2814ERename "to" as this name is already used in declaration at line 1732. 2
+ÆÆ :
+»
+ÄÄ {
+
+javascriptS2814ERename "to" as this name is already used in declaration at line 1732. 2
+ÓÓ :
+»
+ÄÄ {
+
+javascriptS2814ERename "to" as this name is already used in declaration at line 1732. 2
+ÕÕ :
+»
+ÄÄ ‚
+
+javascriptS2814LRename "callbacks" as this name is already used in declaration at line 2185. 2
+‹‹ :
+»
+‰‰9 B~
+
+javascriptS2814HRename "limit" as this name is already used in declaration at line 1486. 2
+ÖÖ :
+»
+ÎÎ |
+
+javascriptS2814FRename "dir" as this name is already used in declaration at line 1732. 2
+ÆÆ :
+»
+ÄÄ |
+
+javascriptS2814FRename "dir" as this name is already used in declaration at line 1732. 2
+ÓÓ :
+»
+ÄÄ |
+
+javascriptS2814FRename "dir" as this name is already used in declaration at line 1732. 2
+ÕÕ :
+»
+ÄÄ |
+
+javascriptS2814FRename "obj" as this name is already used in declaration at line 1864. 2
+àà :
+»
+ÈÈ	 {
+
+javascriptS2814ERename "px" as this name is already used in declaration at line 1482. 2
+ÒÒ :
+»
+ÊÊ |
+
+javascriptS2814FRename "dlt" as this name is already used in declaration at line 1487. 2
+×× 	:
+»
+ÏÏ 	
+
+javascriptS2814KRename "property" as this name is already used in declaration at line 2069. 2
+££ :
+»
+•• 
+
+javascriptS2814IRename "amount" as this name is already used in declaration at line 1483. 2
+ÓÓ :
+»
+ËË ~
+
+javascriptS2814HRename "limit" as this name is already used in declaration at line 2071. 2
+¥¥ :
+»
+—— ƒ
+
+javascriptS2814MRename "draggerPos" as this name is already used in declaration at line 1485. 2
+ÕÕ :
+»
+ÍÍ ƒ
+
+javascriptS2814MRename "contentPos" as this name is already used in declaration at line 2070. 2
+¤¤ :
+»
+–– 
+
+javascriptS2814XRename "totalScrollBackOffset" as this name is already used in declaration at line 2079. 2
+­­ :
+»
+ŸŸ 
+
+javascriptS2814IRename "options" as this name is already used in declaration at line 401. 2
+““ :
+»
+‘‘ {
+
+javascriptS2814ERename "to" as this name is already used in declaration at line 1571. 2
+¨¨ 	:
+»
+££ 	{
+
+javascriptS2814ERename "to" as this name is already used in declaration at line 1237. 2
+×	×	 :
+»
+Õ	Õ	 |
+
+javascriptS2814FRename "dir" as this name is already used in declaration at line 1237. 2
+×	×		 :
+»
+Õ	Õ		 €
+
+javascriptS2814JRename "options" as this name is already used in declaration at line 2015. 2
+íí :
+»
+ßß "
+
+javascriptS2814KRename "clickDir" as this name is already used in declaration at line 1570. 2
+§§ :
+»
+¢¢ |
+
+javascriptS2814FRename "doc" as this name is already used in declaration at line 1519. 2
+õõ	 :
+»
+ïï	 Š
+
+javascriptS2814TRename "totalScrollOffset" as this name is already used in declaration at line 2078. 2
+¬¬ :
+»
+ |
+
+javascriptS2814FRename "tso" as this name is already used in declaration at line 2076. 2
+ªª 	:
+»
+œœ 	|
+
+javascriptS2814FRename "dir" as this name is already used in declaration at line 1569. 2
+¦¦
+ :
+»
+¡¡
+ W
+
+javascriptS18544Remove this useless assignment to local variable "d" 2
+ÜÜ
+ ^
+
+javascriptUnusedVariable2Remove the declaration of the unused 'd' variable. 2
+ÜÜ
+ {
+
+javascriptS2703XAdd the "let", "const" or "var" keyword to this declaration of "dx" to make it explicit. 2
+’’ 

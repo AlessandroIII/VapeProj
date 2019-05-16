@@ -1,0 +1,156 @@
+±
+
+javascriptS2583lChange this condition so that it does not always evaluate to "true"; some subsequent code is never executed. 2
+©U©U/ 8: 
+∫
+©U©U< =Never reachedo
+
+javascriptS2589LRefactor this code so that this expression does not always evaluate to true. 2
+ÑGÑG 	o
+
+javascriptS2589LRefactor this code so that this expression does not always evaluate to true. 2
+ôGôG 	o
+
+javascriptS2589LRefactor this code so that this expression does not always evaluate to true. 2
+ÆGÆG 	o
+
+javascriptS2589LRefactor this code so that this expression does not always evaluate to true. 2
+Ù]Ù] 0W
+
+javascriptS37824Change this argument to the documented type: Number. 2
+¶]¶] +Ü
+
+javascriptS4165cReview this useless assignment: "index" already holds the assigned value along all execution paths. 2
+ä)ä) y
+
+javascriptS2814CRename "b" as this name is already used in declaration at line 848. 2
+”” :
+∫
+–– y
+
+javascriptS2814CRename "v" as this name is already used in declaration at line 989. 2
+‰‰ :
+∫
+›› t
+
+javascriptS2814BRename "i" as this name is already used in declaration at line 48. 266 :
+∫00 t
+
+javascriptS2814BRename "i" as this name is already used in declaration at line 48. 2;; :
+∫00 t
+
+javascriptS2814BRename "i" as this name is already used in declaration at line 48. 2AA :
+∫00 t
+
+javascriptS2814BRename "i" as this name is already used in declaration at line 48. 2PP :
+∫00 D
+
+javascriptS878"Remove use of this comma operator. 2
+
+
+⁄ €=
+
+javascriptS1116Remove this empty statement. 2ÖÖ Q
+
+javascript
+EmptyBlock)Either remove or fill this block of code. 2
+≥PµP W
+
+javascriptS18544Remove this useless assignment to local variable "b" 2
+ÙÙ W
+
+javascriptS18544Remove this useless assignment to local variable "g" 2
+ÒÒ W
+
+javascriptS18544Remove this useless assignment to local variable "r" 2
+ÓÓ W
+
+javascriptS18544Remove this useless assignment to local variable "z" 2
+¶	¶	  !W
+
+javascriptS18544Remove this useless assignment to local variable "x" 2
+§	§	  [
+
+javascriptS18548Remove this useless assignment to local variable "color" 2
+˜A˜A 	[
+
+javascriptS18548Remove this useless assignment to local variable "color" 2
+ÑBÑB 	W
+
+javascriptS18544Remove this useless assignment to local variable "s" 2
+˚F˚F W
+
+javascriptS18544Remove this useless assignment to local variable "s" 2
+êGêG W
+
+javascriptS18544Remove this useless assignment to local variable "s" 2
+•G•G d
+
+javascriptS1854ARemove this useless assignment to local variable "scaleLabelFont" 2
+ÆSÆS h
+
+javascriptS1854ERemove this useless assignment to local variable "rotatedLabelHeight" 2
+ëUëU Y
+
+javascriptS18546Remove this useless assignment to local variable "ctx" 2
+çXçX ]
+
+javascriptS1854:Remove this useless assignment to local variable "helpers" 2
+‡`‡` g
+
+javascriptS1854DRemove this useless assignment to local variable "hasNegativeValues" 2
+ÙbÙb	 g
+
+javascriptS1854DRemove this useless assignment to local variable "hasPositiveValues" 2
+˜b˜b	 `
+
+javascriptS1854=Remove this useless assignment to local variable "valueWidth" 2
+»l»l	 a
+
+javascriptS1854>Remove this useless assignment to local variable "valueHeight" 2
+ŒlŒl	 k
+
+javascriptUnusedVariable?Remove the declaration of the unused 'maxWidthRadius' variable. 2
+õhõh d
+
+javascriptUnusedVariable8Remove the declaration of the unused 'helpers' variable. 2
+‡`‡` b
+
+javascriptUnusedVariable6Remove the declaration of the unused 'right' variable. 2
+ΩMΩM o
+
+javascriptUnusedVariableCRemove the declaration of the unused 'rotatedLabelHeight' variable. 2
+ëUëU c
+
+javascriptUnusedVariable7Remove the declaration of the unused 'offset' variable. 2
+ûfûf b
+
+javascriptUnusedVariable6Remove the declaration of the unused 'color' variable. 2
+˜A˜A 	g
+
+javascriptUnusedVariable;Remove the declaration of the unused 'valueWidth' variable. 2
+»l»l	 `
+
+javascriptUnusedVariable4Remove the declaration of the unused 'ctx' variable. 2
+çXçX b
+
+javascriptUnusedVariable6Remove the declaration of the unused 'color' variable. 2
+ÑBÑB 	c
+
+javascriptUnusedVariable7Remove the declaration of the unused 'bottom' variable. 2
+æMæM h
+
+javascriptUnusedVariable<Remove the declaration of the unused 'valueHeight' variable. 2
+ŒlŒl	 k
+
+javascriptUnusedVariable?Remove the declaration of the unused 'scaleLabelFont' variable. 2
+ÆSÆS z
+
+javascriptS2703WAdd the "let", "const" or "var" keyword to this declaration of "b" to make it explicit. 2
+©© z
+
+javascriptS2703WAdd the "let", "const" or "var" keyword to this declaration of "r" to make it explicit. 2
+©© z
+
+javascriptS2703WAdd the "let", "const" or "var" keyword to this declaration of "g" to make it explicit. 2
+©© 

@@ -1,0 +1,181 @@
+::-webkit-scrollbar { width: 6px; height: 6px; } 
+::-webkit-scrollbar-button { width: 0px; height: 0px; } 
+::-webkit-scrollbar-thumb { background: #2A65B0; border: 0px none #2A65B0; border-radius: 50px; } 
+::-webkit-scrollbar-thumb:hover { background: #4c88e8; } 
+::-webkit-scrollbar-thumb:active { background: #4a7ccc; } 
+::-webkit-scrollbar-track { background: #132A54; border: 0px none #132A54; border-radius: 0px; } 
+::-webkit-scrollbar-track:hover { background: #132A54; } 
+::-webkit-scrollbar-track:active { background: #060F1D; } 
+::-webkit-scrollbar-corner { background: transparent; }
+
+
+/* Label */
+label{
+	color:white;
+}
+label.page_title{
+	margin-left: 1%;
+	font-size: 28px;
+	color:white;
+}
+label.reg-label{
+	color:black;
+}
+label.pagination{
+	margin-top:2px;
+	margin-left:-5px;
+	margin-right:-5px;
+	color:white;
+	font-size: 18px;
+}
+
+a.profile_link{
+	color: white;
+}
+
+
+h1{
+	color:white;
+}
+
+/*Link tabella*/
+a.table_link{
+	color:white;
+}
+a.hover{
+	color:red;
+}
+
+
+div.container{
+	background-color: white;
+}
+
+div.container.panel{
+	border:1px;
+	border-color:white;
+}
+
+div.buttons-line{
+	margin-top:10px;
+}
+
+
+/*Background fixed Text Scrolls*/
+body.background{
+	background: url(../img/background.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+ 	background-repeat: no-repeat;
+  	background-position: center center;
+}
+
+
+/* Tabella e figli */
+table.extended{
+	width:100%;
+}
+th{
+	background-color:white;
+	color:black;
+	font-size:18px;
+	text-align: center;
+	border-color: white;
+}
+td{
+	font-size:15px;
+	color:white;
+	text-align: center;
+}
+td.details-control {
+    background: url('../img/icon_button/show_info_32x32.png') no-repeat center center;
+    cursor: pointer;
+}
+tr.shown td.details-control {
+    background: url('../img/icon_button/hide_info_32x32.png') no-repeat center center;
+}
+
+/*Immagini*/
+img.no_prefatto{
+	width: 20px;
+	height: 25px;
+}
+img.si_prefatto{
+	width: 20px;
+	height: 25px;
+}
+img.logo_sito{
+	max-width: 64px;
+	max-height: 64px;
+}
+img.boccetta_vuota{
+	width:74px;
+	height:104px;
+}
+
+textarea{
+	resize: none;
+	border-radius: 10px;
+	text-align:left;
+}
+
+
+/*Solo per dispositivi mobili*/
+@media only screen and (max-device-width:1280px){
+	.no_cell{
+		display:none;
+	}
+	img.propic{
+	max-width: 100px;
+	}
+}
+
+/*Solo per pc*/
+@media only screen and (min-device-width:1280px){
+	.no_pc{
+		display:none;
+	}
+	img.propic{
+	max-width: 150px;
+	}
+	div.divisor{
+		margin-top:1%;
+	}
+}
+
+/*Generici*/
+.header{
+	background-color: white;
+}
+.header_table_log{
+	background-color: black;
+	color:white;
+}
+.table-text{
+	margin-top: 3%;
+}
+.label_white{
+	margin-top:5%;
+	color:white;
+	font-size: 16px;
+}
+.form-label{
+	margin-top:5%;
+	margin-left:10%;
+	text-align:center;
+	color:white;
+	font-size: 16px;
+}
+.propic-text{
+	color:white;
+	margin-top: 2%;
+	font-size: 20px
+}
+.page_title{
+	color:black;
+	font-size: 24px;
+	margin-top: 2%
+}
+.new_section{
+	margin-top: 2%;
+}

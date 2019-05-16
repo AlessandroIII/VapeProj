@@ -1,0 +1,34 @@
+SonarQube plugins:
+  - SonarPython 1.13.0.2922 (python)
+  - SonarCSS 1.0.3.724 (cssfamily)
+  - JaCoCo 1.0.1.143 (jacoco)
+  - SonarGo 1.1.0.1612 (go)
+  - SonarKotlin 1.5.0.315 (kotlin)
+  - Svn 1.9.0.1295 (scmsvn)
+  - SonarJS 5.1.1.7506 (javascript)
+  - SonarRuby 1.5.0.315 (ruby)
+  - SonarScala 1.5.0.315 (sonarscala)
+  - SonarC# 7.11.0.8083 (csharp)
+  - SonarJava 5.11.0.17289 (java)
+  - LDAP 2.2.0.608 (ldap)
+  - SonarHTML 3.1.0.1615 (web)
+  - Git 1.8.0.1574 (scmgit)
+  - SonarFlex 2.4.0.1222 (flex)
+  - SonarXML 2.0.1.2020 (xml)
+  - SonarPHP 3.0.0.4537 (php)
+  - SonarTS 1.9.0.3766 (typescript)
+  - SonarVB 7.11.0.8083 (vbnet)
+Global server settings:
+  - sonar.core.id=BF41A1F2-AWq7GQffWBkaoj_9G5z3
+  - sonar.core.startTime=2019-05-15T12:45:39+0200
+Project server settings:
+Project scanner properties:
+  - sonar.host.url=http://localhost:9000
+  - sonar.login=******
+  - sonar.projectBaseDir=C:\xampp\htdocs\VapeProj
+  - sonar.projectKey=VapeProj
+  - sonar.scanner.app=ScannerCli
+  - sonar.scanner.appVersion=3.3.0.1492
+  - sonar.sourceEncoding=windows-1252
+  - sonar.sources=.
+  - sonar.working.directory=C:\xampp\htdocs\VapeProj\.scannerwork
