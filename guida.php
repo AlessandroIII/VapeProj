@@ -20,35 +20,35 @@
 		<div role="tabpanel" class="tab-pane fade active in" id="tab_aromi" aria-labelledby="aroma-tab" style="text-align: center">
 			<label style="color:white; font-size: 20px"> INSERIMENTO</label><br>
 			<div style="text-align: center">
-				<img src="img/guida/inserimento_aroma.png">
+				<img src="img/guida/inserimento_aroma.png" alt="Nuovo Aroma">
 			</div>
 			<label style="color:white">Premere il bottone evidenziato e inserire i dati richiesti nella pagina di inserimento aroma</label>
 			<br>
 			<br>
 			<label style="color:white; font-size: 20px"> INFORMAZIONI</label><br>
 			<div style="text-align: center">
-				<img src="img/guida/informazioni_aroma.png">
+				<img src="img/guida/informazioni_aroma.png" alt="Informazioni Aroma">
 			</div>
 			<label style="color:white">Premere il bottone evidenziato per visualizzare informazioni aggiuntive sull'aroma desiderato</label>
 			<br>
 			<br>
 			<label style="color:white; font-size: 20px"> RICERCA</label><br>
 			<div style="text-align: center">
-				<img src="img/guida/ricerca_aroma.png">
+				<img src="img/guida/ricerca_aroma.png"  alt="Ricerca Aroma">
 			</div>
 			<label style="color:white">Inserire la chiave di ricerca nella casella evidenziata. Verranno visualizzati gli aromi con una qualsiasi corrispondenza con la chiave inserita, inoltre si potranno scegliere il numero di aromi visualizzabili per pagina e scorrere tra le varie pagine.</label>
 		</div>
 		<div role="tabpanel" class="tab-pane fade" id="tab_liquidi" aria-labelledby="liquid-tab" style="text-align: center">
 			<label style="color:white; font-size: 20px"> INSERIMENTO </label><br>
 			<div style="text-align: center">
-				<img src="img/guida/inserimento_liquido.png">
+				<img src="img/guida/inserimento_liquido.png" alt="Nuovo Liquido 1">
 			</div>
 			<label style="color:white">
 				Premere il bottone evidenziato e inserire i dati richiesti nella pagina di inserimento liquido
 			</label>
 			<br>
 			<div style="text-align: center">
-				<img src="img/guida/prefatto_liquido.png">
+				<img src="img/guida/prefatto_liquido.png" alt="Nuovo Liquido 2">
 			</div>
 			<label style="color:white">
 				Se il liquido è prefatto, inserire nelle note la lista degli ingredienti, altrimenti selezionare gli aromi usati per comporre il liquido e quantità utilizzata.
@@ -58,22 +58,22 @@
 			<label style="color:white; font-size: 20px"> INFORMAZIONI </label>
 			<br>
 			<div style="text-align: center">
-				<img src="img/guida/informazioni_liquido.png">
+				<img src="img/guida/informazioni_liquido.png" alt="Informazioni Liquido">
 			</div>
 			<label style="color:white">
 				<h3>LEGENDA:</h3>
 				<br>
-				<img src="img/boccetta_no.png"> Liquido non prefatto
+				<img src="img/boccetta_no.png" alt="liquido non prefatto"> Liquido non prefatto
 				<br>
 				<br>
-				<img src="img/boccetta_si.png"> Liquido prefatto<br>
+				<img src="img/boccetta_si.png" alt="liquido prefatto"> Liquido prefatto<br>
 				Premere il bottone evidenziato per visualizzare informazioni aggiuntive sul liquido desiderato. 
 			</label>
 			<br>
 			<br>
 			<label style="color:white; font-size: 20px"> RICERCA </label><br>
 			<div style="text-align: center">
-				<img src="img/guida/ricerca_liquido.png">
+				<img src="img/guida/ricerca_liquido.png" alt="Ricerca Liquido">
 			</div>
 			<label style="color:white">Inserire la chiave di ricerca nella casella evidenziata. Verranno visualizzati i liquidi con una qualsiasi corrispondenza con la chiave inserita, inoltre si potrà scegliere il numero di liquidi visualizzabili per pagina e scorrere tra le varie pagine.</label>			
 		</div>

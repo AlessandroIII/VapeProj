@@ -4,22 +4,18 @@ include "header.php";
 
 if(isset($_GET['idad'])){
 	changeState($_GET['idad'], "del", "a");
-	// Database::insertRecord("log", "azione, utente, level", "' ha eliminato ".$_GET['id_aroma_delete']."',". $_SESSION['ID'].", 4");
 	$_GET = "";
 }
 if(isset($_GET['idar'])){
 	changeState($_GET['idar'], "react", "a");
-	// Database::insertRecord("log", "azione, utente, level", "' ha riattivato ".$_GET['id_aroma_reactive']."',". $_SESSION['ID'].", 4");
 	$_GET = "";
 }
 if(isset($_GET['idld'])){
 	changeState($_GET['idld'], "del", "l");
-	// Database::insertRecord("log", "azione, utente, level", "' ha eliminato ".$_GET['idld']."',". $_SESSION['ID'].", 4");
 	$_GET = "";
 }
 if(isset($_GET['idlr'])){
 	changeState($_GET['idlr'], "react", "l");
-	// Database::insertRecord("log", "azione, utente, level", "' ha riattivato ".$_GET['idlr']."',". $_SESSION['ID'].", 4");
 	$_GET = "";
 }
 // if($_SESSION['TIPO_ACCOUNT'] == "USER"){$conditions.=" AND a.disattivo = 0";}
@@ -64,7 +60,7 @@ $liquidi = getLiquidi();
 										$id_creatore=$aromi[$i]["creatore"];
 										?>
 										<tr>
-											<td><a href="#" data-toggle="modal" data-target="#modal_<?php echo $i; ?>"><img src="img/icon_button/show_info_32x32.png"></a></td>
+											<td><a href="#" data-toggle="modal" data-target="#modal_<?php echo $i; ?>"><img src="img/icon_button/show_info_32x32.png" alt="Mostra info"></a></td>
 											<td><?php echo $aromi[$i]['nome']."   ".$aromi[$i]['ml']." ml"; ?></td>
 											<td><u>
 												<?php if($id_creatore == $_SESSION['ID']){$link = "profilo.php";}else{$link="profilo_view.php?id=".$id_creatore;}
@@ -74,7 +70,7 @@ $liquidi = getLiquidi();
 											</u></td>
 											<td class="no_cell"><?php echo $aromi[$i]['produttore']; ?></td>
 											<?php if($_SESSION['TIPO_ACCOUNT']=="ADMIN"){ ?>
-												<td><?php if($aromi[$i]['disattivo'] == 0){
+												<td><?php if($aromi[$i][DISATTIVO] == 0){
 													$i_class="fas fa-check";
 													$color = "green";
 												}else{
@@ -103,7 +99,7 @@ $liquidi = getLiquidi();
 																<h4><b>NOTE: </b><?php echo $aromi[$i]['note']; ?></h4>
 																<h4><b>INSERITO DA: </b><?php echo $aromi[$i]['username']; ?></h4>
 																<?php if($_SESSION["TIPO_ACCOUNT"] == "ADMIN"){
-																	if($aromi[$i]['disattivo'] == 0){ $attivo = "Si";}else{
+																	if($aromi[$i][DISATTIVO] == 0){ $attivo = "Si";}else{
 																		$attivo="No";}
 																	$data_inserimento = strtotime($aromi[$i]['data_inserimento']); ?>
 																	<h4><b>- IL: </b><?php echo date('d/m/Y H:i:s', $data_inserimento); ?></h4>
@@ -114,7 +110,7 @@ $liquidi = getLiquidi();
 															<div class="modal-footer">
 																<?php if(($_SESSION["ID"] == $aromi[$i]["creatore"])||$_SESSION['TIPO_ACCOUNT'] == "ADMIN" ){ ?>
 																	<button type="button" class="btn btn-info btn-sm" onclick="modifyAdmin(<?php echo $aromi[$i]['id'];?>, 'aroma')"><i class="fa fa-edit"></i> Modifica</button>
-																	<?php if($aromi[$i]['disattivo'] == 0){ ?>
+																	<?php if($aromi[$i][DISATTIVO] == 0){ ?>
 																	<button type="button" class="btn btn-danger btn-sm" onclick="redirect_to('index.php?idad=<?php echo $aromi[$i]['id']; ?>', 's')"><i class="fa fa-trash"></i> Elimina</button>
 																<?php } else{ ?>
 																	<button type="button" class="btn btn-success btn-sm" onclick="redirect_to('index.php?idar=<?php echo $aromi[$i]['id']; ?>', 's')"><i class="fa fa-reply"></i> Riattiva</button>
@@ -192,7 +188,7 @@ $liquidi = getLiquidi();
 											</td>
 											<?php if($_SESSION['TIPO_ACCOUNT']=="ADMIN"){ ?>
 												<td>
-													<?php if($liquidi[$i]['disattivo'] == 0){
+													<?php if($liquidi[$i][DISATTIVO] == 0){
 													$i_class="fas fa-check";
 													$color = "green";
 												}else{
@@ -226,7 +222,7 @@ $liquidi = getLiquidi();
 														</div>
 														<div class="modal-footer">
 															<?php if($_SESSION["ID"] == $liquidi[$i]["creatore"] || $_SESSION['TIPO_ACCOUNT'] == "ADMIN" ){
-																	if($liquidi[$i]['disattivo'] == 0){ ?>
+																	if($liquidi[$i][DISATTIVO] == 0){ ?>
 																	<button type="button" class="btn btn-danger btn-sm" onclick="redirect_to('index.php?idld=<?php echo $liquidi[$i]['id_liquido']?>', 's')"><i class="fa fa-trash"></i> Elimina</button>
 															<?php }else{ ?>
 																	<button type="button" class="btn btn-success btn-sm" onclick="redirect_to('index.php?idlr=<?php echo $liquidi[$i]['id_liquido']?>', 's')"><i class="fa fa-reply"></i> Riattiva</button>
@@ -269,7 +265,7 @@ $liquidi = getLiquidi();
 										</td>
 										<?php if($_SESSION['TIPO_ACCOUNT']=="ADMIN"){ ?>
 											<td>
-												<?php if($liquidi_prefatti[$index_lp]['disattivo'] == 0){
+												<?php if($liquidi_prefatti[$index_lp][DISATTIVO] == 0){
 													$i_class="fas fa-check";
 													$color = "green";
 												}else{
@@ -301,7 +297,7 @@ $liquidi = getLiquidi();
 												</div>
 												<div class="modal-footer">
 													<?php if($_SESSION["ID"] == $liquidi_prefatti[$index_lp]["creatore"] || $_SESSION['TIPO_ACCOUNT'] == "ADMIN"){
-																if($liquidi_prefatti[$index_lp]['disattivo'] == 0){ ?>
+																if($liquidi_prefatti[$index_lp][DISATTIVO] == 0){ ?>
 																	<button type="button" class="btn btn-danger btn-sm" onclick="redirect_to('index.php?idld=<?php echo $liquidi_prefatti[$index_lp]['IdLiquido']?>', 's')"><i class="fa fa-trash"></i> Elimina</button>
 															<?php }else{ ?>
 																	<button type="button" class="btn btn-success btn-sm" onclick="redirect_to('index.php?idlr=<?php echo $liquidi_prefatti[$index_lp]['IdLiquido']?>', 's')"><i class="fa fa-reply"></i> Riattiva</button>

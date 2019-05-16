@@ -103,7 +103,7 @@
 ?>
 <div class="row">
 	<div class="col-md-10 col-sm-10 col-xs-10 col-lg-11">
-		<h1><?php echo $_SESSION['USERNAME']; ?></h1>
+		<h1><?php echo htmlspecialchars($_SESSION['USERNAME']); ?></h1>
 	</div>
 </div>
 <div class="row">

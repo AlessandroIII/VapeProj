@@ -5,30 +5,14 @@ header("Pragma: no-cache");
 
 
 
-if(!isset($_SESSION['USERNAME'])){
+if(!isset($_SESSION["USERNAME"])){
   header("Location: login.php");
+}else{
+  
 }
-
-// include "datatablesbase.php";
 include "php_function/function.php";
 include "classes/Enumeration/basic_enum.class.php";
-
-Database::connect();
-
-function printdump($toprint){
-  echo "<div style=\"margin-left:20%\"><pre>";
-  var_dump($toprint);
-  echo "</pre></div>";
-  exit;
-}
 ?>
-<!-- SELECT c.id_aroma as 'IdAroma', a.nome as 'NomeAroma', c.quantita as ML, l.PG, l.VG, c.id_liquido as 'IdLiquido', l.nome as 'NomeLiquido',  u.username, l.prezzo, l.note, l.data_inserimento 
-FROM liquido l, composizione c, aroma a, utente u 
-WHERE a.id = c.id_aroma AND l.id = c.id_liquido AND u.id = l.creatore AND l.prefatto = 0;
-
-SELECT c.id_aroma as 'IdAroma', a.nome as 'NomeAroma', c.quantita as ML, l.PG, l.VG, c.id_liquido as 'IdLiquido', l.nome as 'NomeLiquido',  u.username, l.prezzo, l.note, l.data_inserimento 
-FROM liquido l, composizione c, aroma a, utente u WHERE a.id = c.id_aroma AND l.id = c.id_liquido AND u.id = l.creatore AND l.prefatto = 0; -->
-
 <!DOCTYPE html>
 
 <html lang="en">
@@ -107,16 +91,16 @@ FROM liquido l, composizione c, aroma a, utente u WHERE a.id = c.id_aroma AND l.
   <script src="gentelella-files/bootstrap/dist/js/bootstrap.min.js"></script>
 
   <!-- Flot -->
-  <script src="gentelella-files/Flot/Flot/jquery.flot.js"></script>
-  <script src="gentelella-files/Flot/Flot/jquery.flot.pie.js"></script>
-  <script src="gentelella-files/Flot/Flot/jquery.flot.time.js"></script>
-  <script src="gentelella-files/Flot/Flot/jquery.flot.stack.js"></script>
-  <script src="gentelella-files/Flot/Flot/jquery.flot.resize.js"></script>
+  <script src="gentelella-files/Flot/jquery.flot.js"></script>
+  <script src="gentelella-files/Flot/jquery.flot.pie.js"></script>
+  <script src="gentelella-files/Flot/jquery.flot.time.js"></script>
+  <script src="gentelella-files/Flot/jquery.flot.stack.js"></script>
+  <script src="gentelella-files/Flot/jquery.flot.resize.js"></script>
 
   <!-- Flot plugins -->
-<!--   <script src="gentelella-files/Flot/flot.orderbars/js/jquery.flot.orderBars.js"></script>
-  <script src="gentelella-files/Flot/flot-spline/js/jquery.flot.spline.min.js"></script>
-  <script src="gentelella-files/Flot/flot.curvedlines/curvedLines.js"></script> -->
+  <script src="gentelella-files/flot.orderbars/js/jquery.flot.orderBars.js"></script>
+  <script src="gentelella-files/flot-spline/js/jquery.flot.spline.min.js"></script>
+  <script src="gentelella-files/flot.curvedlines/curvedLines.js"></script>
 
   <!-- DateJS -->
   <script src="gentelella-files/DateJS/build/date.js"></script>

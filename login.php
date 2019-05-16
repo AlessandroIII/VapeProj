@@ -1,4 +1,3 @@
-
 <?php
     require_once "php_function/function.php";
     $esito;
@@ -34,22 +33,21 @@
     <title>VapeProj</title>
 
     <!-- Bootstrap -->
-    <link href="gentelella-master/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="gentelella-files/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <!-- NProgress -->
-    <link href="gentelella-master/vendors/nprogress/nprogress.css" rel="stylesheet">
+    <link href="/gentelella-master/vendors/nprogress/nprogress.css" rel="stylesheet">
     <!-- Animate.css -->
-    <link href="gentelella-master/vendors/animate.css/animate.min.css" rel="stylesheet">
+    <link href="/gentelella-master/vendors/animate.css/animate.min.css" rel="stylesheet">
     <link href="css/css.css" rel="stylesheet">
 
     <link href="icons/apple-touch-icon.png" rel="apple-touch-icon" />
     <link rel="shortcut icon" href="icons/favicon.ico" />
 
-
     <script src="js/login.js"></script>
     <!-- Custom Theme Style -->
-    <link href="gentelella-master/build/css/custom.min.css" rel="stylesheet">
+    <link href="gentelella-files/build/css/custom.min.css" rel="stylesheet">
   </head>
 
   
